@@ -405,3 +405,34 @@ git push origin feature/nombre-del-cambio
 - Repos públicos: doble revisión de `.gitignore` **antes** del primer commit real con contenido de producción — especialmente backups de plugins de migración, que pueden contener un volcado completo del sitio.
 - Bases de datos separadas para cada entorno (producción / dev / local) — nunca compartir credenciales ni apuntar dos entornos a la misma base.
 - `uploads/` sincroniza en un solo sentido: producción → dev/local, nunca al revés.
+
+---
+
+## 9. Harness de automatización (verificación de despliegues)
+
+En `harness/` (raíz del repo, fuera de `wp-content/` para que nunca se despliegue por rsync) vive un harness de tests que automatiza lo que antes se verificaba a mano: que local, dev y producción respondan y se vean como se espera después de un cambio.
+
+**Stack:** Node.js + `@playwright/test`. El harness no reinventa un test runner — es una capa fina de orquestación por encima de Playwright: crea una sesión, invoca `playwright test`, recolecta resultados y artefactos.
+
+**Uso:**
+
+```powershell
+cd harness
+npm install
+npx playwright install chromium   # solo la primera vez
+
+node cli.js run --env=local --suite=smoke
+node cli.js run --env=dev --suite=smoke
+node cli.js run --env=prod --suite=smoke --confirm   # exige --confirm a propósito
+```
+
+- `--env`: `local` (`localhost:8090`), `dev` (`dev.colibridge.es`) o `prod` (`colibridge.es`, bloqueado detrás de `--confirm`).
+- `--suite`: `smoke` (HTTP/browser, corre en cualquier entorno), `integration` (checks vía `docker compose exec wpcli`, **solo local**), o `all`.
+
+**Sesiones:** cada corrida queda en `harness/sessions/<timestamp>_<env>_<suite>/` (gitignored) con `session.json` (resumen: entorno, commit, resultado, exit code), `log.txt` (output crudo) y `artifacts/` (reporte HTML/JSON de Playwright, screenshots/traces en fallos). Nunca se pisa una sesión anterior — sirve para comparar antes/después de un deploy.
+
+**Reglas de seguridad ya incorporadas al harness:**
+- `integration` nunca corre WP-CLI remoto contra dev/prod — solo contra el Docker local.
+- `prod` exige `--confirm` explícito, igual que la regla de este documento de no tocar producción sin confirmación.
+
+**Pendiente (roadmap, no implementado todavía):** checks de integridad de DB/plugins vía wp-cli más ricos en `tests/integration/`, captura de screenshots por página clave para comparar entornos, comando `list`/`diff` de sesiones, hook opcional en `deploy-dev.yml` para correr el smoke suite automático post-deploy, y un adapter futuro en `harness/adapters/openspec/` (hoy solo un README placeholder, sin código) para integrar con OpenSpec el día que se decida. Detalle de uso y de qué cubre cada carpeta en `harness/README.md`.
