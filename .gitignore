@@ -1,0 +1,26 @@
+# Secrets y config local
+.env
+wp-config.php
+
+# Core de WordPress (no se versiona, se descarga)
+wp-admin/
+wp-includes/
+*.php
+!wp-content/**/*.php
+
+# Contenido generado
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+
+# Base de datos
+db/*.sql
+*.sql
+
+# Docker
+db_data/
+
+# Sistema
+.DS_Store
+node_modules/

@@ -1,0 +1,31 @@
+name: Deploy a dev.dominio.com
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Desplegar por rsync sobre SSH
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avzr --delete
+          path: wp-content/
+          remote_path: ${{ secrets.DEV_REMOTE_PATH }}/wp-content/
+          remote_host: ${{ secrets.HOSTINGER_HOST }}
+          remote_port: ${{ secrets.HOSTINGER_SSH_PORT }}
+          remote_user: ${{ secrets.HOSTINGER_SSH_USER }}
+          remote_key: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
+
+# Secrets necesarios en GitHub (Settings > Secrets and variables > Actions):
+#   HOSTINGER_HOST             -> IP o host SSH de Hostinger
+#   HOSTINGER_SSH_PORT         -> normalmente 65002
+#   HOSTINGER_SSH_USER         -> usuario SSH
+#   HOSTINGER_SSH_PRIVATE_KEY  -> clave privada (añade la pública en hPanel > SSH Access)
+#   DEV_REMOTE_PATH            -> ej: /home/usuario/domains/tudominio.com/dev_public_html

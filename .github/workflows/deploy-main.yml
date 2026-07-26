@@ -1,0 +1,32 @@
+name: Deploy a producción (main)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production   # te permite exigir aprobación manual antes de desplegar (Settings > Environments)
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Desplegar por rsync sobre SSH
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avzr --delete --exclude=uploads/
+          path: wp-content/
+          remote_path: ${{ secrets.PROD_REMOTE_PATH }}/wp-content/
+          remote_host: ${{ secrets.HOSTINGER_HOST }}
+          remote_port: ${{ secrets.HOSTINGER_SSH_PORT }}
+          remote_user: ${{ secrets.HOSTINGER_SSH_USER }}
+          remote_key: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
+
+# Secret adicional respecto a deploy-dev.yml:
+#   PROD_REMOTE_PATH -> ej: /home/usuario/public_html
+#
+# Recomendado: en GitHub > Settings > Environments > production,
+# activa "Required reviewers" para que el despliegue a producción
+# pida tu aprobación manual antes de ejecutarse, aunque el merge ya esté hecho.

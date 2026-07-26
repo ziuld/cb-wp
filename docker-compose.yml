@@ -1,0 +1,56 @@
+version: "3.8"
+
+services:
+  wordpress:
+    image: wordpress:6.7-php8.2-apache   # <-- ajusta la versión de PHP a la que usa Hostinger (hPanel > PHP Configuration)
+    container_name: wp_app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_DEBUG: 1
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.11
+    container_name: wp_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/backup.sql:/docker-entrypoint-initdb.d/backup.sql   # se importa solo la primera vez
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: wp_pma
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+    depends_on:
+      - db
+
+  wpcli:
+    image: wordpress:cli-php8.2
+    container_name: wp_cli
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+    depends_on:
+      - db
+    entrypoint: ["tail", "-f", "/dev/null"]   # queda vivo para ejecutar comandos con: docker compose exec wpcli wp ...
+
+volumes:
+  db_data:
