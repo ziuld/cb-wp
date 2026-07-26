@@ -1,0 +1,598 @@
+# Translation of Plugins - SVG Support - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - SVG Support - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-07-24 16:34:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - SVG Support - Stable (latest release)\n"
+
+#: functions/enqueue.php:59
+msgid "Saved"
+msgstr "Guardado"
+
+#: functions/enqueue.php:56
+msgid "Couldn't save — retrying on next change"
+msgstr "No se ha podido guardar — lo volveré a intentar con el próximo cambio"
+
+#: functions/enqueue.php:55
+msgid "Changes saved"
+msgstr "Cambios guardados"
+
+#: functions/enqueue.php:54 functions/enqueue.php:58
+msgid "Saving…"
+msgstr "Guardando..."
+
+#: admin/svgs-settings-page.php:350
+msgid "Try ShortPixel for free"
+msgstr "Prueba ShortPixel gratis"
+
+#: admin/svgs-settings-page.php:348
+msgid "ShortPixel reduces the size of your JPG and PNG images with no visible quality loss — originals are kept in a backup folder. If you upgrade to a paid plan, I'll receive a small commission."
+msgstr "ShortPixel reduce el tamaño de tus imágenes JPG y PNG sin que se note ninguna pérdida de calidad; los originales se guardan en una carpeta de copia de seguridad. Si te pasas a un plan de pago, recibiré una pequeña comisión."
+
+#: admin/svgs-settings-page.php:340
+msgid "Optimize your images"
+msgstr "Optimiza tus imagenes"
+
+#: admin/svgs-settings-page.php:334
+msgid "Leave a review"
+msgstr "Deja una reseña"
+
+#: admin/svgs-settings-page.php:329
+msgid "Get support"
+msgstr "Obtén soporte"
+
+#: admin/svgs-settings-page.php:326
+msgid "Need a hand? Support is handled personally through the WordPress.org forums. And if you're enjoying SVG Support, a quick five-star review means the world."
+msgstr "¿Necesitas ayuda? La asistencia se gestiona personalmente a través de los foros de WordPress.org. Y si te gusta SVG Support, una reseña rápida de cinco estrellas significa mucho para nosotros."
+
+#: admin/svgs-settings-page.php:325
+msgid "Support & reviews"
+msgstr "Asistencia y reseñas"
+
+#: admin/svgs-settings-page.php:319
+msgid "GitHub"
+msgstr "GitHub"
+
+#: admin/svgs-settings-page.php:319
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+#: admin/svgs-settings-page.php:315
+msgid "Visit svg.support"
+msgstr "Visita svg.support"
+
+#: admin/svgs-settings-page.php:313
+msgid "Guides for inline rendering, styling and animating SVGs — plus handy tools for animating and optimizing your files — all on the new site."
+msgstr "Guías para la visualización, el diseño y la animación de archivos SVG en la propia página, además de herramientas muy útiles para animar y optimizar tus archivos, todo ello en la nueva web."
+
+#: admin/svgs-settings-page.php:312
+msgid "Tutorials & tools"
+msgstr "Tutoriales y herramientas"
+
+#: admin/svgs-settings-page.php:304
+msgid "Ethereum donation address QR code"
+msgstr "Código QR de la dirección para donaciones en Ethereum"
+
+#: admin/svgs-settings-page.php:294
+msgid "Bitcoin donation address QR code"
+msgstr "Código QR de la dirección para donaciones en Bitcoin"
+
+#: admin/svgs-settings-page.php:290 admin/svgs-settings-page.php:300
+msgid "Show QR code"
+msgstr "Mostrar código QR"
+
+#: admin/svgs-settings-page.php:285
+msgid "Donate via PayPal"
+msgstr "Donar mediante PayPal"
+
+#: admin/svgs-settings-page.php:282
+msgid "If it's useful, a donation keeps it going."
+msgstr "Si te resulta útil, una donación ayuda a que siga adelante."
+
+#: admin/svgs-settings-page.php:282
+msgid "Maintained by one person since 2013."
+msgstr "Mantenido por una sola persona desde 2013."
+
+#: admin/svgs-settings-page.php:281
+msgid "active installs and counting"
+msgstr "instalaciones activas y contando"
+
+#: admin/svgs-settings-page.php:259
+msgid "Removes all settings and metadata when the plugin is deleted. This cannot be undone."
+msgstr "Elimina todos los ajustes y metadatos cuando se borra el plugin. Esta acción no se puede deshacer."
+
+#: admin/svgs-settings-page.php:258 admin/svgs-settings-page.php:262
+msgid "Delete plugin data on uninstall"
+msgstr "Borrar los datos del plugin al desinstalarlo"
+
+#: admin/svgs-settings-page.php:238
+msgid "(Classic Editor only) Inserts the target class into IMG tags when you embed an SVG in a post, and strips the default WordPress classes. Only affects SVG files."
+msgstr "(Solo en el editor clásico) Inserta la clase de destino en las etiquetas IMG cuando incrustas un SVG en una entrada y elimina las clases predeterminadas de WordPress. Solo afecta a los archivos SVG."
+
+#: admin/svgs-settings-page.php:231
+msgid "<strong>Use with caution!</strong> Automatically adds the target class to ALL image tags with SVG sources, rendering every SVG on your site inline. Useful when a page builder won't let you add a CSS class to an image."
+msgstr "<strong>¡Úsalo con precaución!</strong> Añade automáticamente la clase «target» a TODAS las etiquetas de imagen con fuentes SVG, lo que hace que todos los archivos SVG de tu sitio se muestren en línea. Es útil cuando un creador de páginas no te deja añadir una clase CSS a una imagen."
+
+#: admin/svgs-settings-page.php:220
+msgid "Load the readable, non-minified script — useful if a caching plugin minifies your scripts externally."
+msgstr "Cargar el script legible y sin minificar — útil si un plugin de caché minifica tus scripts externamente."
+
+#: admin/svgs-settings-page.php:213
+msgid "Load the dependency-free script instead of the jQuery version."
+msgstr "Carga el script sin dependencias en lugar de la versión con jQuery."
+
+#: admin/svgs-settings-page.php:206
+msgid "Place the inline-rendering script before the closing body tag instead of in the head. Requires your theme to call wp_footer()."
+msgstr "Pon el script de procesado en línea antes de la etiqueta de cierre de «body», en lugar de en el «head». Para eso, tu tema tiene que llamar a wp_footer()."
+
+#: admin/svgs-settings-page.php:198
+msgid "Only inline the first SVG in a target container — useful for Gutenberg Cover blocks with nested SVG images."
+msgstr "Solo inserta el primer SVG en un contenedor de destino; esto es útil para los bloques «Portada» de Gutenberg con imágenes SVG anidadas."
+
+#: admin/svgs-settings-page.php:187
+msgid "in your content"
+msgstr "en tu contenido"
+
+#: admin/svgs-settings-page.php:183
+msgid "Set your own class here, or leave blank to use the default. The plugin traverses any depth below an element carrying the class and replaces child IMG tags with SVG sources."
+msgstr "Introduce aquí tu propia clase o déjalo en blanco para usar la predeterminada. El plugin recorre todos los niveles de profundidad por debajo de un elemento que tenga esa clase y sustituye las etiquetas IMG secundarias por fuentes SVG."
+
+#: admin/svgs-settings-page.php:172
+msgid "Turn on Advanced Mode to unlock inline rendering, styling and animation options."
+msgstr "Activa el modo avanzado para desbloquear las opciones de procesamiento, estilo y animación en línea."
+
+#: admin/svgs-settings-page.php:159
+msgid "Inline rendering, styling and animation. Adds a small JS file to your front-end."
+msgstr "Representación, estilo y animación en línea. Añade un pequeño archivo JS a tu web."
+
+#: admin/svgs-settings-page.php:140
+msgid "Auto-minify all SVG uploads to keep file sizes small."
+msgstr "Minimiza automáticamente todos los archivos SVG que se suban para que no ocupen mucho espacio."
+
+#: admin/svgs-settings-page.php:126
+msgid "Select the user roles that should bypass SVG sanitization on upload. Leave empty unless you fully trust a role's uploads."
+msgstr "Selecciona los perfiles de usuario que deben saltarse la limpieza de SVG al subir archivos. Déjalo en blanco a menos que confíes plenamente en las subidas de un perfil concreto."
+
+#: admin/svgs-settings-page.php:120
+msgid "Select the user roles that are allowed to upload SVG files. Only give upload permission to roles you trust."
+msgstr "Selecciona los perfiles de usuario a los que se les permite subir archivos SVG. Solo concede permiso para subir archivos a los roles en los que confías."
+
+#: admin/svgs-settings-page.php:112
+msgid "Uploads, sanitization and performance."
+msgstr "Subidas, saneamiento y rendimiento."
+
+#: admin/svgs-settings-page.php:111
+msgid "General"
+msgstr "General"
+
+#: admin/svgs-settings-page.php:94
+msgid "class, then target its internal elements with plain CSS. For help, check the Help tab (top right) or the tutorials at"
+msgstr "clase y, a continuación, aplica CSS básico a sus elementos internos. Si necesitas ayuda, echa un vistazo a la pestaña «Ayuda» (arriba a la derecha) o a los tutoriales en"
+
+#: admin/svgs-settings-page.php:92
+msgid "Enable Advanced Mode to embed your full SVG inline via a simple"
+msgstr "Activa el modo avanzado para insertar tu SVG completo en línea mediante una sencilla"
+
+#: admin/svgs-settings-page.php:90
+msgid "Style SVGs with CSS — easily."
+msgstr "Da estilo a los archivos SVG con CSS — sin complicaciones."
+
+#: admin/svgs-settings-page.php:82 functions/enqueue.php:53
+msgid "All changes saved"
+msgstr "Se han guardado todos los cambios."
+
+#: admin/admin-init.php:96
+msgid "Invalid settings payload."
+msgstr "Carga útil de ajustes no válida."
+
+#: admin/svgs-settings-page.php:251
+msgid "Danger zone"
+msgstr "Zona peligrosa"
+
+#: admin/svgs-settings-page.php:225
+msgid "Legacy settings"
+msgstr "Ajustes heredados"
+
+#: includes/svg-tags.php:32
+msgid "SVG Support: SVG Sanitizer library not found. Some features may be limited."
+msgstr "Compatibilidad con SVG: Biblioteca de saneado SVG no encontrada. Algunas características podrían estar limitadas."
+
+#: functions/attachment.php:521
+msgid "SVG sanitization failed for security reasons."
+msgstr "El saneado de SVG falló por motivos de seguridad."
+
+#: functions/attachment.php:339 functions/attachment.php:364
+msgid "File is not a valid SVG."
+msgstr "El archivo no es un SVG válido."
+
+#: functions/attachment.php:380
+msgid "Security check failed."
+msgstr "La comprobación de seguridad ha fallado."
+
+#: admin/svgs-settings-page.php:345
+msgid "ShortPixel logo"
+msgstr "Logo de ShortPixel"
+
+#: admin/svgs-settings-page.php:197
+msgid "Skip nested SVGs"
+msgstr "Omitir SVGs anidados"
+
+#. translators: %1$s: Opening strong tag, %2$s: Closing strong tag, %3$s:
+#. Opening anchor tag for rating link, %4$s: Closing anchor tag
+#: admin/admin-init.php:240
+msgid "If you like %1$sSVG Support%2$s please leave a %3$s★★★★★%4$s rating. A huge thanks in advance!"
+msgstr "Si te gusta %1$sSVG Support%2$s, por favor, deja un valoración de %3$s★★★★★%4$s. ¡Muchas gracias por anticipado!"
+
+#: admin/svgs-settings-page.php:181
+msgid "The default target class is"
+msgstr "La clase objetivo por defecto es"
+
+#: admin/svgs-settings-page.php:124
+msgid "Do not sanitize for these roles"
+msgstr "No sanear para estos perfiles"
+
+#: admin/svgs-settings-page.php:118
+msgid "Restrict SVG uploads to"
+msgstr "Restringir las subidas de SVG a"
+
+#: admin/svgs-settings-page.php:212
+msgid "Use vanilla JS"
+msgstr "Usar JavaScript puro"
+
+#: admin/svgs-settings-page.php:133
+msgid "Enhance security by sanitizing SVG images on the front-end. This helps prevent XSS and injection attacks."
+msgstr "Mejora la seguridad saneando las imágenes svg en portada. Esto ayudará a evitar ataques de XSS y de inyección."
+
+#: admin/svgs-settings-page.php:132
+msgid "Sanitize SVG on front-end"
+msgstr "Sanear SVG en portada"
+
+#: functions/attachment.php:402
+msgid "Sorry, this file couldn't be sanitized for security reasons and wasn't uploaded."
+msgstr "Lo sentimos, este archivo no se pudo sanear, por lo que, por razones de seguridad no se subió"
+
+#: admin/svgs-settings-page.php:139
+msgid "Minify SVG"
+msgstr "Minimizar SVG"
+
+#: admin/svgs-settings-page-help.php:84
+msgid "You can set this target class on any element and the script will traverse all children of that target element looking for IMG tags with SVG in the src to replace."
+msgstr "Puedes configurar esta clase de destino en cualquier elemento y el script atravesará todos los hijos de ese elemento de destino buscando etiquetas IMG con un SVG en el src para reemplazarlo. "
+
+#: admin/svgs-settings-page-help.php:63
+msgid "If you want to enable sanitization or minification of uploaded SVG files, please enable advanced settings and then enable sanitization and/or minification."
+msgstr "Si quieres activar el saneado o minimizado de los archivos SVG que subas, por favor, activa los ajustes avanzados y luego activa el saneado y/o el minimizado."
+
+#: admin/svgs-settings-page-help.php:61
+msgid "You can simply upload SVG files to your media library like any other image.<br>Make sure to select \"Restrict to Administrators\" if you only want to allow admins to upload SVG files."
+msgstr "Puedes subir archivos SVG a tu biblioteca de medios como cualquier otra imagen.<br> Asegúrate de seleccionar «Restringir a administradores» si sólo quieres permitir a los administradores subir archivos SVG."
+
+#: admin/plugin-action-meta-links.php:36
+msgid "Leave a Review"
+msgstr "Deja una reseña"
+
+#: admin/svgs-settings-page.php:147
+msgid "A very small piece of CSS that helps with displaying SVGs on the front-end in some cases."
+msgstr "Una porción de código muy pequeña que, en algunos casos, ayuda a mostrar los SVG en la portada."
+
+#: admin/svgs-settings-page.php:146
+msgid "Load front-end CSS"
+msgstr "Cargar el CSS de la portada"
+
+#. Description of the plugin
+#: svg-support.php
+msgid "Upload SVG files to the Media Library and render SVG files inline for direct styling/animation of an SVG's internal elements using CSS/JS."
+msgstr "Sube archivos SVG a la biblioteca de medios y los muestra integrados para el estilo/animación directa de los elementos internos utilizando CSS/JS."
+
+#: admin/svgs-settings-page-help.php:157
+msgid "<a target=\"_blank\" href=\"https://wordpress.org/support/plugin/svg-support\">SVG Support Forum</a>"
+msgstr "<a target=\"_blank\" href=\"https://wordpress.org/support/plugin/svg-support\">Foro de soporte de SVG Support</a>"
+
+#: admin/svgs-settings-page-help.php:156
+msgid "For more help, visit:"
+msgstr "Para más ayuda, visita:"
+
+#: admin/svgs-settings-page-help.php:147
+msgid "DONATIONS"
+msgstr "DONACIONES"
+
+#: admin/svgs-settings-page-help.php:142
+msgid "(You don't need to send me that much though, anything is appreciated!)"
+msgstr "(¡No hace falta que me envíes tanto, se aprecia cualquier cosa!)"
+
+#: admin/svgs-settings-page-help.php:142
+msgid "My Coinbase referral link will get $10 USD worth of BTC for free when you spend $100."
+msgstr "Mi enlace de referido de Coinbase obtendrá $10 USD de BTC gratis cuando gastes $100."
+
+#: admin/svgs-settings-page-help.php:142
+msgid "Need to buy some crypto to donate?"
+msgstr "¿Necesitas comprar criptomonedas para donar?"
+
+#: admin/svgs-settings-page-help.php:140
+msgid "ETH: 0x599695Eb51aFe2e5a0DAD60aD9c89Bc8f10B54f4"
+msgstr "ETH: 0x599695Eb51aFe2e5a0DAD60aD9c89Bc8f10B54f4"
+
+#: admin/svgs-settings-page-help.php:140
+msgid "LTC: LUnQPJrSk6cVFmMqBMv5FAqweJbnzRUz4o"
+msgstr "LTC: LUnQPJrSk6cVFmMqBMv5FAqweJbnzRUz4o"
+
+#: admin/svgs-settings-page-help.php:140
+msgid "BTC: 1qF8r2HkTLifND7WLGfWmvxfXc9ze55DZ"
+msgstr "BTC: 1qF8r2HkTLifND7WLGfWmvxfXc9ze55DZ"
+
+#: admin/svgs-settings-page-help.php:140
+msgid "PayPal: "
+msgstr "PayPal: "
+
+#: admin/svgs-settings-page-help.php:138
+msgid "Donation Methods:"
+msgstr "Métodos de donación:"
+
+#: admin/svgs-settings-page-help.php:136
+msgid "SVG Support (this plugin) has grown to be used by over 1 million websites actively and is maintained solely by one person. I couldn't possibly tell you how many hours have gone into the development, maintenance and support of this plugin. If you find it useful and would like to donate to help keep it going, that would be amazing! I truly appreciate the support and how far this has come."
+msgstr "SVG Support (este plugin) ha crecido hasta ser usado por más de un millón de webs activamente y es mantenido por una única persona. No podría decirte cuántas horas se han dedicado al desarrollo, mantenimiento y soporte de este plugin. Si lo encuentras útil y te gustaría donar para ayudar a mantenerlo en marcha, ¡sería increíble! Agradezco sinceramente el apoyo y lo lejos que ha llegado."
+
+#: admin/svgs-settings-page-help.php:134
+msgid "Donations"
+msgstr "Donaciones"
+
+#: admin/svgs-settings-page-help.php:121
+msgid "Then there's the option of animating the SVG file itself. There is a number of online tools to do this, or you can use the software of your choice. Once your SVG is animated and ready to go, you then upload it like any other image to your WordPress media library. When you embed it on a page/post, you will need to make sure to add the class to the IMG tag so SVG Support can render it inline. This will ensure your animations are displayed."
+msgstr "Luego está la opción de animar el propio archivo SVG. Hay una serie de herramientas en línea para hacerlo, o puedes utilizar el software de tu elección. Una vez que tu SVG esté animado y listo para funcionar, cárgalo como cualquier otra imagen a tu biblioteca de medios de WordPress. Cuando lo incrustas en una página/entrada, tendrás que asegurarte de añadir la clase a la etiqueta IMG para que SVG Suppor pueda renderizarla en línea. Esto asegurará que tus animaciones se muestren."
+
+#: admin/svgs-settings-page-help.php:119
+msgid "Before you upload your SVG, you're going to need some classes to target inside your SVG. To do this, open your SVG file in the code editor of choice (I use Sublime Text). You will see each element within your SVG file written in XML code. Each little part of your SVG has it's own bit of code, so it's up to you which ones you want to target. It's in here that you'll place your new classes on each element you want to target."
+msgstr "Antes de subir tu SVG, vas a necesitar algunas clases a las que apuntar dentro de tu SVG. Para ello, abre su archivo SVG en el editor de código de tu elección (yo utilizo Sublime Text). Verás cada elemento dentro de tu archivo SVG escrito en código XML. Cada pequeña parte de su SVG tiene su propia porción de código, así que depende de a cuáles quieras dirigirte. Es aquí donde colocarás tus nuevas clases en cada elemento al que quieras dirigirte."
+
+#: admin/svgs-settings-page-help.php:119
+msgid "First, let's talk about using CSS or JS to target elements within your SVG."
+msgstr "Primero, hablemos sobre el uso de CSS o JS para dirigirse a elementos dentro de tu SVG."
+
+#: admin/svgs-settings-page-help.php:117
+msgid "There's a number of ways you can animate an SVG. You could use CSS or JS to target elements within your SVG or even embed the animations in the file itself. Whichever way you choose, there is always a little bit of preparation required before uploading your SVG to your media library."
+msgstr "Hay varias formas de animar un SVG. Puedes utilizar CSS o JS para dirigirte a elementos dentro de tu SVG o incluso incrustar las animaciones en el propio archivo. Sea cual sea la forma que elijas, siempre se requiere un poco de preparación antes de subir su SVG a tu biblioteca multimedia."
+
+#: admin/svgs-settings-page-help.php:117
+msgid "So you want to animate your SVG?"
+msgstr "¿Quieres animar tu SVG?"
+
+#: admin/svgs-settings-page-help.php:115 admin/svgs-settings-page-help.php:126
+msgid "Animation"
+msgstr "Animación"
+
+#: admin/svgs-settings-page-help.php:103
+msgid "Publish, Save Draft, or Update the post a final time to render the SVG inline."
+msgstr "Publica, guardar el borrador o actualiza la entrada por última vez para que el SVG esté en línea."
+
+#: admin/svgs-settings-page-help.php:103
+msgid "Once the screen reloads, click the new checkbox below the featured image to render your SVG inline."
+msgstr "Una vez que la pantalla se haya recargado, haz clic en la nueva casilla de verificación debajo de la imagen destacada para renderizar tu SVG en línea."
+
+#: admin/svgs-settings-page-help.php:103
+msgid "Publish, Save Draft, or Update the post."
+msgstr "Publica, guardar como borrador o actualiza la entrada."
+
+#: admin/svgs-settings-page-help.php:103
+msgid "Add your featured SVG like you would any regular featured image format."
+msgstr "Añade tu SVG destacado como lo harías con cualquier formato de imagen destacada normal."
+
+#: admin/svgs-settings-page-help.php:103
+msgid "Make sure \"Advanced Mode\" is enabled."
+msgstr "Asegúrate de que el «Modo Avanzado» está activado."
+
+#: admin/svgs-settings-page-help.php:101
+msgid "To render your featured SVG inline:"
+msgstr "Para procesar tu SVG destacado integrado:"
+
+#: admin/svgs-settings-page-help.php:99
+msgid "You can use SVG files as featured images just like any other image format, with the addition of being able to render your featured SVG inline on a per-post basis."
+msgstr "Puedes utilizar archivos SVG como imágenes destacadas como cualquier otro formato de imagen, con la adición de poder elegir si procesar tus archivos SVG destacados integrados por cada entrada."
+
+#: admin/svgs-settings-page-help.php:97 admin/svgs-settings-page-help.php:108
+msgid "Featured Images"
+msgstr "Imágenes destacadas"
+
+#: admin/svgs-settings-page-help.php:84
+msgid "Your uploaded image needs to be an SVG file for this plugin to replace the img tag with the inline SVG code. It will not create SVG files for you."
+msgstr "Tu imagen subida necesita ser un archivo SVG para que este plugin pueda reemplazar la etiqueta img por el código SVG integrado. No creará archivos SVG para ti."
+
+#: admin/svgs-settings-page-help.php:84
+msgid "You will likely need to set your own height and width in your CSS for SVG files to display correctly."
+msgstr "Es probable que necesites establecer tu propia altura y anchura en tu CSS para que los archivos SVG se muestren correctamente."
+
+#: admin/svgs-settings-page-help.php:78
+msgid "You can embed your SVG image like any standard image with the addition of adding the class <code>style-svg</code> (or your custom class) to any IMG tags that you want this plugin to swap out with your actual SVG code."
+msgstr "Puedes incrustar tu imagen SVG como cualquier imagen estándar con la adición de añadir la clase <code>style-svg</code> (o tu clase personalizada) a cualquier etiqueta IMG que quieres que este plugin cambie por tu código SVG real."
+
+#: admin/svgs-settings-page-help.php:76 admin/svgs-settings-page-help.php:89
+msgid "Render SVG Inline"
+msgstr "Mostrar SVG integrado"
+
+#: admin/svgs-settings-page-help.php:59 admin/svgs-settings-page-help.php:68
+msgid "Standard Usage"
+msgstr "Uso estándar"
+
+#: admin/svgs-settings-page-help.php:46
+msgid "This feature is to force all SVG files that are found in your site to be rendered inline. This can help if you aren't able to set a custom class on your IMG tags for some reason, usually when used in theme options or page builder elements."
+msgstr "Esta característica es para forzar que todos los archivos SVG que se encuentran en el sitio sean procesados integrados. Esto puede ayudar si no puedes establecer una clase personalizada en tus etiquetas IMG por alguna razón, normalmente cuando se utiliza en las opciones de tema o en los elementos de generadores de páginas."
+
+#: admin/svgs-settings-page-help.php:46
+msgid "Force Inline SVG:"
+msgstr "Forzar SVG integrado:"
+
+#: admin/svgs-settings-page-help.php:44
+msgid "When this is checked, you won't have to add the class to your SVG files during the embed process in the editor. When you pick your SVG, it will be placed in the editor with just the SVG Support class and others stripped. It does not change existing code, it's only a helper to allow you to quickly embed your SVG files and have them render inline without having to fiddle with the classes."
+msgstr "Cuando esta opción está seleccionada, no tendrás que añadir la clase a sus archivos SVG durante el proceso de incrustación en el editor. Cuando elijas tu SVG, se colocará en el editor sólo con la clase de compatibilidad con SVG y se le quitarán las demás. No cambia el código existente, es sólo una ayuda que te permite incrustar rápidamente tus archivos SVG y hacer que se procesen integrados sin tener que jugar con las clases."
+
+#: admin/svgs-settings-page-help.php:44
+msgid "Automatically Insert Class:"
+msgstr "Insertar automáticamente la clase:"
+
+#: admin/svgs-settings-page-help.php:42
+msgid "This allows you to set your own custom class that you will use in your SVG source IMG tags that you would like rendered inline. For example, it might be easier for you to remember to add the class \"inline-svg\" or something, in which case you would use your desired class name in this field to be used across your site."
+msgstr "Esto te permite establecer tu propia clase personalizada que utilizará en las etiquetas IMG con SVG que te gustaría que se procesarán integrados. Por ejemplo, podría ser más fácil para ti recordar añadir la clase «inline-svg» o algo así, en cuyo caso usarías el nombre de clase que quieras en este campo para ser usado en todo el sitio."
+
+#: admin/svgs-settings-page-help.php:42
+msgid "CSS Class To Target:"
+msgstr "Clase CSS objetivo:"
+
+#: admin/svgs-settings-page-help.php:40
+msgid "This setting gives you the choice of JS file that is enqueued, the full expanded version or the minified version. You would usually enqueue the minified version, but if you want to bundle the JS file using a caching or minification plugin or similar, then you might want to enqueue the expanded, non-minified version."
+msgstr "Este ajuste te da la opción de elegir entre encolar para el archivo JS la versión ampliada completa o la versión minimizada. Por lo general, la versión que se encola es la versión minimizada, pero si quieres agrupar el archivo JS utilizando un plugin de caché o de optimización o similar, es posible que quieras agrupar la versión expandida y no minimizada."
+
+#: admin/svgs-settings-page-help.php:40
+msgid "Use Expanded JS:"
+msgstr "Usar JS expandido:"
+
+#: admin/svgs-settings-page-help.php:38
+msgid "This setting allows you to choose whether the SVG Support JS file is enqueued in the header or the footer of the site. Usually you would enqueue in the footer unless you need it to be loaded sooner for some reason."
+msgstr "Este ajuste te permite elegir si el archivo JS de SVG Support está en cola en el encabezado o en el pie de página del sitio. Por lo general, se encolaría en el pie de página, a menos que necesites que se cargue antes por alguna razón."
+
+#: admin/svgs-settings-page-help.php:38
+msgid "Output JS in Footer:"
+msgstr "Salida JS en pie de página:"
+
+#: admin/svgs-settings-page-help.php:36
+msgid "Enabling \"Advanced Mode\" displays options to give you more control over how you use SVG files on your site. It also includes extra JS on the front end, so leave this disabled unless you're actually using any of the advanced features."
+msgstr "Al activar el «Modo avanzado» se muestran las opciones para darte más control sobre el uso de los archivos SVG en tu sitio. También incluye JS extra en la parte pública de la web, así que déjalo desactivado a menos que estés usando alguna de las funciones avanzadas."
+
+#: admin/svgs-settings-page-help.php:36
+msgid "When using SVG files like regular images just isn't enough ;)"
+msgstr "Cuando se usan archivos SVG como imágenes normales no es suficiente ;)"
+
+#: admin/svgs-settings-page-help.php:36
+msgid "Enable Advanced Mode:"
+msgstr "Activar el modo avanzado:"
+
+#: admin/svgs-settings-page-help.php:34
+msgid "SVG files are actually XML code, so allowing regular users to upload them can pose serious security risks. Please leave this checked unless you really know what you're doing."
+msgstr "Los archivos SVG son en realidad código XML, por lo que permitir a los usuarios habituales cargarlos puede suponer un grave riesgo para la seguridad. Por favor, deja esto marcado a menos que realmente sepas lo que estás haciendo."
+
+#: admin/svgs-settings-page-help.php:34
+msgid "Restrict To Administrators:"
+msgstr "Restringir a administradores:"
+
+#: admin/svgs-settings-page-help.php:32 admin/svgs-settings-page-help.php:51
+msgid "The Settings"
+msgstr "Los ajustes"
+
+#: admin/svgs-settings-page-help.php:19
+msgid "So let's get into some more details! Simply click the tabs to the left to get more of an understanding of how powerful SVG Support is."
+msgstr "¡Así que vamos a entrar en más detalles! Simplemente haz clic en las pestañas de la izquierda para obtener más información sobre lo potente que es SVG Support."
+
+#: admin/svgs-settings-page-help.php:19
+msgid "SVG Support features an \"Advanced Mode\" which toggles extra features, allowing you to take more control of how your SVG files are used. By rendering SVG files inline, it opens up a huge number of possibilities including animations, embedded links within the SVG, odd shaped link areas, custom CSS targeting elements within the SVG and  whole lot more!"
+msgstr "SVG Support incluye un «Modo avanzado» que activa las funciones adicionales que te permiten tener más control sobre cómo se utilizan tus archivos SVG. Al procesar archivos SVG integrados, se abren un gran número de posibilidades, incluyendo animaciones, enlaces incrustados dentro del SVG, áreas de enlaces con formas extrañas, apuntar con CSS a elementos personalizados dentro del SVG ¡y mucho más!"
+
+#: admin/svgs-settings-page-help.php:19
+msgid "Even this most basic of usage is very powerful for modern websites, however, there's lots of cool stuff you can do with SVG files!"
+msgstr "Incluso este uso más básico es muy poderoso para los sitios web modernos, sin embargo, ¡hay muchas cosas geniales que puedes hacer con los archivos SVG!"
+
+#: admin/svgs-settings-page-help.php:19
+msgid "At it's core, SVG Support allows you to upload SVG files and use them as you would any regular image with the added benefit of being scalable and looking great on any screen size, no matter what size it's displayed. Additionally, SVG file sizes are (more often than not) much smaller than conventional image formats."
+msgstr "En su núcleo, el SVG Support te permite subir archivos SVG y utilizarlos como si se tratara de cualquier imagen normal, con la ventaja añadida de ser escalable y tener un aspecto excelente en cualquier tamaño de pantalla, independientemente del tamaño que se muestre. Además, los tamaños de archivo SVG son (la mayoría de las veces) mucho más pequeños que los formatos de imagen convencionales."
+
+#: admin/svgs-settings-page-help.php:17 admin/svgs-settings-page-help.php:24
+msgid "Overview"
+msgstr "Resumen"
+
+#: admin/svgs-settings-page.php:230
+msgid "Force inline SVG"
+msgstr "Forzar SVG integrados"
+
+#: admin/svgs-settings-page.php:219
+msgid "Use expanded JS"
+msgstr "Usar JS expandido"
+
+#: admin/plugin-action-meta-links.php:17
+msgid "SVG Support Settings"
+msgstr "Ajustes de SVG Support"
+
+#: functions/featured-image.php:23
+msgid "Render this SVG inline (advanced)"
+msgstr "Procesar este SVG integrado (avanzado)"
+
+#: admin/svgs-settings-page.php:158
+msgid "Advanced Mode"
+msgstr "Modo avanzado"
+
+#: admin/svgs-settings-page.php:163
+msgid "Enable Advanced Mode"
+msgstr "Activar el modo avanzado"
+
+#. Author URI of the plugin
+#: svg-support.php
+msgid "https://benbodhi.com"
+msgstr "https://benbodhi.com"
+
+#. Plugin URI of the plugin
+#: svg-support.php
+msgid "http://wordpress.org/plugins/svg-support/"
+msgstr "http://es.wordpress.org/plugins/svg-support/"
+
+#: admin/svgs-settings-page-help.php:84
+msgid "Please Note:"
+msgstr "Ten en cuenta:"
+
+#: admin/svgs-settings-page-help.php:82
+msgid "This allows you to target elements within your SVG using CSS."
+msgstr "Esto permite hacer referencia a los elementos SVG usando CSS."
+
+#: admin/svgs-settings-page-help.php:82
+msgid "The whole IMG tag element will now be dynamically replaced by the actual code of your SVG, making the inner content targetable."
+msgstr "Toda la etiqueta IMG se reemplaza de forma dinámica con el código del SVG haciendo que se pueda hacer referencia al contenido interior."
+
+#: admin/svgs-settings-page-help.php:80
+msgid "or"
+msgstr "o"
+
+#: admin/svgs-settings-page-help.php:78
+msgid "For example:"
+msgstr "Por ejemplo:"
+
+#: admin/svgs-settings-page.php:270 functions/enqueue.php:57
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: admin/svgs-settings-page.php:178
+msgid "CSS class to target"
+msgstr "Clase CSS objetivo"
+
+#: admin/svgs-settings-page.php:237
+msgid "Automatically insert class"
+msgstr "Insertar la clase automáticamente"
+
+#: admin/svgs-settings-page.php:205
+msgid "Output JS in footer"
+msgstr "Poner JS en el pie de página"
+
+#: admin/plugin-action-meta-links.php:17
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/admin-init.php:15
+msgid "SVG Support Settings and Usage"
+msgstr "Ajustes y uso de SVG Support"
+
+#: admin/plugin-action-meta-links.php:37
+msgid "Donate to author"
+msgstr "Donar al autor"
+
+#: admin/plugin-action-meta-links.php:35
+msgid "Get Support"
+msgstr "Obtener ayuda"
+
+#: admin/admin-init.php:37 admin/admin-init.php:90
+msgid "You can't play with this."
+msgstr "No puedes jugar con esto."
+
+#. Plugin Name of the plugin
+#: svg-support.php admin/admin-init.php:16 admin/svgs-settings-page.php:79
+msgid "SVG Support"
+msgstr "SVG Support"

@@ -27,3 +27,7 @@ node_modules/
 
 deploy_key
 deploy_key.pub
+
+wp-content/ai1wm-backups/
+wp-content/debug.log
+wp-content/*.log

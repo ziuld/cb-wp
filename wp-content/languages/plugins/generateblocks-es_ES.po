@@ -1,0 +1,1596 @@
+# Translation of Plugins - GenerateBlocks - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - GenerateBlocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-05-26 19:20:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - GenerateBlocks - Stable (latest release)\n"
+
+#: includes/class-meta-handler.php:485
+msgid "Sorry, you are not allowed to access this user's meta."
+msgstr "Lo siento, no tienes permiso para acceder a los metadatos este usuario."
+
+#: includes/class-meta-handler.php:585
+msgid "Sorry, you are not allowed to access protected term meta fields."
+msgstr "No tienes permiso para acceder a los campos meta protegidos."
+
+#: includes/class-meta-handler.php:575
+msgid "Sorry, you are not allowed to read this term."
+msgstr "No tienes permiso para leer este término."
+
+#: includes/class-meta-handler.php:562
+msgid "Term not found."
+msgstr "Término no encontrado."
+
+#: includes/class-meta-handler.php:550
+msgid "A valid term ID is required."
+msgstr "Es necesario un ID de término válido."
+
+#: includes/class-meta-handler.php:510
+msgid "Sorry, you are not allowed to view this user meta field."
+msgstr "No tienes permiso para ver este campo meta de usuario."
+
+#: includes/class-meta-handler.php:474
+msgid "A valid user ID is required."
+msgstr "Es necesario un ID de usuario válido."
+
+#: includes/class-meta-handler.php:368 includes/class-meta-handler.php:499
+msgid "Sorry, you are not allowed to access protected meta fields."
+msgstr "No se te permite acceder a los campos meta protegidos."
+
+#: includes/class-meta-handler.php:356
+msgid "Sorry, you are not allowed to read meta for this password-protected post."
+msgstr "No se te permite leer la metainformación de esta publicación protegida con contraseña."
+
+#: includes/class-meta-handler.php:342
+msgid "Sorry, you are not allowed to read this post."
+msgstr "No tienes permiso para leer esta entrada."
+
+#: includes/class-dynamic-tag-security.php:708
+msgid "Content Validation Failed"
+msgstr "Error en la validación del contenido"
+
+#. translators: %s: The restricted field name
+#: includes/class-dynamic-tag-security.php:484
+msgid "You do not have permission to use the term meta field \"%s\" in dynamic tags. Fields starting with underscore are protected."
+msgstr "No tienes permiso para utilizar el término meta campo «%s» en etiquetas dinámicas. Los campos que comienzan con un guión bajo están protegidos."
+
+#. translators: %s: The restricted field name
+#: includes/class-dynamic-tag-security.php:454
+msgid "You do not have permission to use the post meta field \"%s\" in dynamic tags. Fields starting with underscore are protected."
+msgstr "No tienes permiso para utilizar el campo meta de la publicación «%s» en etiquetas dinámicas. Los campos que comienzan con un guión bajo están protegidos."
+
+#. translators: %s: The restricted field name
+#: includes/class-dynamic-tag-security.php:424
+msgid "You do not have permission to use the field \"%s\" in dynamic tags. Only administrators can use custom user fields."
+msgstr "No tienes permiso para utilizar el campo «%s» en etiquetas dinámicas. Solo los administradores pueden utilizar campos de usuario personalizados."
+
+#. translators: %s: The restricted field name
+#: includes/class-dynamic-tag-security.php:412
+msgid "You do not have permission to use the field \"%s\" in dynamic tags. This field is restricted for security reasons."
+msgstr "No tienes permiso para utilizar el campo «%s» en etiquetas dinámicas. Este campo está restringido por motivos de seguridad."
+
+#. translators: %s: The restricted field name
+#: includes/class-dynamic-tag-security.php:400
+msgid "You do not have permission to use the field \"%s\" in dynamic tags. Fields starting with underscore are protected."
+msgstr "No tienes permiso para utilizar el campo «%s» en etiquetas dinámicas. Los campos que comienzan con un guión bajo están protegidos."
+
+#: dist/blocks/media/index.js:1
+#: src/blocks/media/components/BlockSettings.jsx:108
+msgid "No sizes available"
+msgstr "No hay tamaños disponibles"
+
+#: dist/blocks/media/index.js:1
+#: src/blocks/media/components/BlockSettings.jsx:104
+msgid "Loading sizes…"
+msgstr "Cargando tamaños..."
+
+#: dist/blocks/shape/block.json src/blocks/shape/block.json
+msgctxt "block keyword"
+msgid "svg"
+msgstr "svg"
+
+#: dist/blocks/shape/block.json src/blocks/shape/block.json
+msgctxt "block keyword"
+msgid "shape"
+msgstr "forma"
+
+#: dist/blocks/shape/block.json src/blocks/shape/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr "icono"
+
+#: dist/blocks/query-no-results/block.json
+#: src/blocks/query-no-results/block.json
+msgctxt "block keyword"
+msgid "no results"
+msgstr "sin resultados"
+
+#: dist/blocks/media/block.json src/blocks/media/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "img"
+
+#: dist/blocks/media/block.json src/blocks/media/block.json
+msgctxt "block keyword"
+msgid "media"
+msgstr "medios"
+
+#: dist/blocks/media/block.json dist/blocks/shape/block.json
+#: src/blocks/media/block.json src/blocks/shape/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "imagen"
+
+#: dist/blocks/loop-item/block.json src/blocks/loop-item/block.json
+msgctxt "block keyword"
+msgid "loop item"
+msgstr "elemento de bucle"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block title"
+msgid "Text"
+msgstr "Texto"
+
+#: dist/blocks/shape/block.json src/blocks/shape/block.json
+msgctxt "block title"
+msgid "Shape"
+msgstr "Forma"
+
+#: dist/blocks/query/block.json src/blocks/query/block.json
+msgctxt "block title"
+msgid "Query"
+msgstr "Consulta"
+
+#: dist/blocks/query-page-numbers/block.json
+#: src/blocks/query-page-numbers/block.json
+msgctxt "block keyword"
+msgid "numbers"
+msgstr "números"
+
+#: dist/blocks/query-page-numbers/block.json
+#: src/blocks/query-page-numbers/block.json
+msgctxt "block keyword"
+msgid "pagination"
+msgstr "paginación"
+
+#: dist/blocks/query-page-numbers/block.json
+#: src/blocks/query-page-numbers/block.json
+msgctxt "block title"
+msgid "Page Numbers"
+msgstr "Número de página"
+
+#: dist/blocks/query-no-results/block.json
+#: src/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No Results"
+msgstr "Sin resultados"
+
+#: dist/blocks/looper/block.json dist/blocks/query/block.json
+#: src/blocks/looper/block.json src/blocks/query/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "entradas"
+
+#: dist/blocks/loop-item/block.json dist/blocks/looper/block.json
+#: dist/blocks/query/block.json src/blocks/loop-item/block.json
+#: src/blocks/looper/block.json src/blocks/query/block.json
+msgctxt "block keyword"
+msgid "loop"
+msgstr "loop"
+
+#: dist/blocks/looper/block.json dist/blocks/query/block.json
+#: src/blocks/looper/block.json src/blocks/query/block.json
+msgctxt "block keyword"
+msgid "query"
+msgstr "consulta"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr "párrafo"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block keyword"
+msgid "headline"
+msgstr "titular"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block keyword"
+msgid "heading"
+msgstr "encabezado"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "texto"
+
+#: dist/blocks/loop-item/block.json src/blocks/loop-item/block.json
+msgctxt "block title"
+msgid "Loop Item"
+msgstr "Elemento de bucle"
+
+#: dist/blocks/element/block.json src/blocks/element/block.json
+msgctxt "block keyword"
+msgid "group"
+msgstr "grupo"
+
+#: dist/blocks/element/block.json src/blocks/element/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "contenedor"
+
+#: dist/blocks/element/block.json src/blocks/element/block.json
+msgctxt "block keyword"
+msgid "element"
+msgstr "elemento"
+
+#: dist/blocks/element/block.json src/blocks/element/block.json
+msgctxt "block title"
+msgid "Container"
+msgstr "Contenedor"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block description"
+msgid "A text element where you can choose your own tag name, content, and styles."
+msgstr "Un elemento de texto donde puedes elegir tu propia etiqueta, contenido y estilos."
+
+#: dist/blocks/shape/block.json src/blocks/shape/block.json
+msgctxt "block description"
+msgid "A custom SVG shape."
+msgstr "Una forma personalizada SVG."
+
+#: dist/blocks/query/block.json src/blocks/query/block.json
+msgctxt "block description"
+msgid "Query posts and display them in a loop."
+msgstr "Consulta las entradas y muéstralas en un bucle."
+
+#: dist/blocks/query-page-numbers/block.json
+#: src/blocks/query-page-numbers/block.json
+msgctxt "block description"
+msgid "Display page numbers for a paginated query loop."
+msgstr "Mostrar los números de página de un bucle de consulta paginado."
+
+#: dist/blocks/query-no-results/block.json
+#: src/blocks/query-no-results/block.json
+msgctxt "block description"
+msgid "Display blocks when your query has no results."
+msgstr "Mostrar bloques cuando tu consulta no tiene resultados."
+
+#: dist/blocks/media/block.json src/blocks/media/block.json
+msgctxt "block description"
+msgid "A self-closing media element."
+msgstr "Un elemento multimedia de cierre automático."
+
+#: dist/blocks/looper/block.json src/blocks/looper/block.json
+msgctxt "block description"
+msgid "Loops its children based on the data provided by the Query block."
+msgstr "Hace un bucle con sus hijos basándose en los datos proporcionados por el bloque Consulta."
+
+#: dist/blocks/looper/block.json src/blocks/looper/block.json
+msgctxt "block title"
+msgid "Looper"
+msgstr "Looper"
+
+#: dist/blocks/loop-item/block.json src/blocks/loop-item/block.json
+msgctxt "block description"
+msgid "The item that is looped inside of the Looper."
+msgstr "El elemento que está en bucle dentro del Looper."
+
+#: dist/blocks/element/block.json src/blocks/element/block.json
+msgctxt "block description"
+msgid "An HTML element that you can add blocks inside of."
+msgstr "Un elemento HTML dentro del cual puedes añadir bloques."
+
+#: dist/blocks/text/index.js:1 src/blocks/text/components/BlockSettings.jsx:139
+msgid "Icon Display"
+msgstr "Mostrar iconos"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:41
+msgid "Span"
+msgstr "Span"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/QueryInspectorControls.jsx:69
+msgid "Standard"
+msgstr "Estándar"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/QueryInspectorControls.jsx:65
+msgid "Pagination type"
+msgstr "Tipo de paginación"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/QueryInspectorControls.jsx:59
+msgid "Query Type"
+msgstr "Tipo de consulta"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/QueryInspectorControls.jsx:40
+msgid "Post Query"
+msgstr "Consulta posterior"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/DateQueryControl.jsx:65
+msgid "Date Query"
+msgstr "Consulta de fecha"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:100
+msgid "Exclude"
+msgstr "Excluir"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:96
+msgid "Include"
+msgstr "Incluir"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:61
+msgid "Select Tags"
+msgstr "Seleccionar etiquetas"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:59
+msgid "Select Categories"
+msgstr "Seleccionar categorías"
+
+#: dist/blocks/query/index.js:4 dist/components.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:56
+msgid "Select Terms"
+msgstr "Selecciona términos"
+
+#: dist/blocks/query-page-numbers/index.js:1
+#: src/blocks/query-page-numbers/components/BlockSettings.jsx:53
+msgid "Mid Size"
+msgstr "Tamaño intermedio"
+
+#: dist/blocks/element/index.js:1 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:1 dist/blocks/loop-item/index.js:4
+#: dist/blocks/looper/index.js:1 dist/blocks/looper/index.js:4
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/query/index.js:4
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/blocks/element/edit.js:73 src/blocks/loop-item/edit.js:79
+#: src/blocks/looper/edit.js:69 src/blocks/query/edit.js:79
+#: src/blocks/text/edit.js:105
+#: src/components/block-styles-builder/BlockStylesBuilder.jsx:67
+#: src/utils/selectorShortcuts.js:21
+msgid "Links"
+msgstr "Enlaces"
+
+#: dist/blocks/element/index.js:1 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:1 dist/blocks/loop-item/index.js:4
+#: dist/blocks/looper/index.js:1 dist/blocks/looper/index.js:4
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/query/index.js:4
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/components/block-styles-builder/BlockStylesBuilder.jsx:59
+#: src/utils/selectorShortcuts.js:13
+msgid "Interactions"
+msgstr "Interacciones"
+
+#: dist/blocks/element/index.js:4 dist/blocks/shape/index.js:1
+#: src/blocks/element/components/BlockSettings.jsx:159
+#: src/blocks/shape/components/BlockSettings.jsx:82
+msgid "Shape"
+msgstr "Forma"
+
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:4
+#: dist/blocks/text/index.js:1
+#: src/blocks/element/components/BlockSettings.jsx:72
+#: src/blocks/loop-item/components/BlockSettings.jsx:56
+#: src/blocks/text/components/BlockSettings.jsx:65
+msgid "Link Destination"
+msgstr "Destino del enlace"
+
+#: dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:77
+msgid "Alignment"
+msgstr "Alineación"
+
+#: dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:62
+msgid "Justify"
+msgstr "Justificar"
+
+#: dist/blocks/element/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1 src/components/notice-panel/NoticePanel.jsx:20
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:824
+msgid "Link to"
+msgstr "Enlace a"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:811
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:697
+msgid "Source"
+msgstr "Origen"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:647
+msgid "Specific Post"
+msgstr "Publicación específica"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:642
+msgid "Specific User"
+msgstr "Usuario específico"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:4 src/dynamic-tags/components/DynamicTagSelect.jsx:641
+msgid "Current User"
+msgstr "Usuario actual"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:636
+msgid "Current Term"
+msgstr "Término actual"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:627
+msgid "Author Email"
+msgstr "Email del Autor"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:626
+msgid "Author Archive"
+msgstr "Archivo de Autor"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:616
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:637
+msgid "Term"
+msgstr "Término"
+
+#: dist/block-styles.js:1 dist/blocks/element/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/components/styles-onboarder/StylesOnboarder.jsx:16
+msgid "Styles"
+msgstr "Estilos"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:322 dist/styles-builder.js:35
+msgid "Media"
+msgstr "Medios"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:278
+msgid "Separator"
+msgstr "Separador"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:255
+msgid "Rating"
+msgstr "Puntuación"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:226
+msgid "Avatar Size"
+msgstr "Tamaño del avatar"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:199
+msgid "Comments URL"
+msgstr "URL de los comentarios"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:183
+msgid "One comment"
+msgstr "Un comentario"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:171
+msgid "Comments Count"
+msgstr "Contador de comentarios"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:160
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:4 src/dynamic-tags/components/DynamicTagSelect.jsx:625
+msgid "Author Meta"
+msgstr "Detalles del autor"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:149
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:4 src/dynamic-tags/components/DynamicTagSelect.jsx:624
+msgid "Post Meta"
+msgstr "Meta de la publicación"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:110
+msgid "Modified"
+msgstr "Modificado"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:94
+msgid "Post Date"
+msgstr "Fecha de publicación"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:74
+msgid "Read More Text"
+msgstr "Texto de «Leer más»"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:57
+msgid "55"
+msgstr "55"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:56
+msgid "Excerpt Length"
+msgstr "Longitud del extracto"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:49
+msgid "Post Excerpt"
+msgstr "Extracto de la entrada"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:39
+msgid "Post Title"
+msgstr "Título de la entrada"
+
+#: includes/dashboard.php:192
+msgid "Get Pro"
+msgstr "Obtén la versión Pro"
+
+#: dist/blocks/text/index.js:1 src/blocks/text/components/BlockSettings.jsx:115
+msgid "Icon Library"
+msgstr "Biblioteca de iconos"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:29
+msgid "Heading 6"
+msgstr "Encabezado 6"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:25
+msgid "Heading 5"
+msgstr "Encabezado 5"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:21
+msgid "Heading 4"
+msgstr "Encabezado 4"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:17
+msgid "Heading 3"
+msgstr "Encabezado 3"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:13
+msgid "Heading 2"
+msgstr "Encabezado 2"
+
+#: dist/blocks/text/index.js:1
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:9
+msgid "Heading 1"
+msgstr "Encabezado 1"
+
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:32
+#: src/dynamic-tags/components/DynamicTagBlockToolbar.jsx:162
+msgid "Edit"
+msgstr "Editar"
+
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/blocks/shape/components/BlockSettings.jsx:89
+#: src/blocks/text/components/BlockSettings.jsx:114
+msgid "Open Library"
+msgstr "Abrir la biblioteca"
+
+#: dist/blocks/shape/index.js:1
+#: src/blocks/shape/components/ShapeDividerControls.jsx:97
+msgid "Flip Horizontal"
+msgstr "Volteo horizontal"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/QueryInspectorControls.jsx:73
+msgid "Instant"
+msgstr "Instantáneo"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:4 src/dynamic-tags/components/DynamicTagSelect.jsx:646
+msgid "Current Post"
+msgstr "Entrada actual"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagModal.jsx:111
+msgid "Dynamic Tags"
+msgstr "Etiquetas dinámicas"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagModal.jsx:55
+msgid "Dynamic tags"
+msgstr "Etiquetas dinámicas"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagModal.jsx:75
+msgid "insert a new one"
+msgstr "insertar uno nuevo"
+
+#: includes/dashboard.php:35 includes/dashboard.php:36
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: includes/class-rest.php:282
+msgid "No attachment found."
+msgstr "No se han encontrado archivos adjuntos."
+
+#: dist/blocks/element/index.js:4 dist/blocks/shape/index.js:1
+#: src/blocks/element/components/BlockSettings.jsx:174
+#: src/blocks/shape/components/BlockSettings.jsx:90
+msgid "Shape Library"
+msgstr "Biblioteca de formas"
+
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagBlockToolbar.jsx:131
+msgid "Open dynamic tags"
+msgstr "Etiquetas dinámicas abiertas"
+
+#: dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/BlockWidth.jsx:58
+msgid "Block Width"
+msgstr "Ancho del bloque"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:761
+msgid "Select source media"
+msgstr "Selecciona los medios de origen"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:725
+msgid "Select source user"
+msgstr "Selecciona el usuario de origen"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:682
+msgid "Select a dynamic tag"
+msgstr "Selecciona una etiqueta dinámica"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:4 src/dynamic-tags/components/SelectTaxonomy.jsx:10
+#: src/dynamic-tags/components/SelectTaxonomy.jsx:23
+msgid "Select Taxonomy…"
+msgstr "Seleccionar taxonomía…"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:329
+msgid "Media Key"
+msgstr "Clave de medios"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:312
+msgid "Next Posts URL"
+msgstr "URL de siguientes entradas"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:302
+msgid "Previous Posts URL"
+msgstr "URL de anteriores entradas"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:279
+msgid "Enter the separator between terms."
+msgstr "Introduce el separador entre términos."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:231
+msgid "Default URL"
+msgstr "URL por defecto"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:227
+msgid "Enter the image size in pixels. Default: 96"
+msgstr "Introduce el tamaño de la imagen en píxeles. Por defecto: 96"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:270
+msgid "Term List"
+msgstr "Lista de términos"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:182
+msgid "One comment text"
+msgstr "Un texto de comentario"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:132
+msgid "Image Key"
+msgstr "Clave de imagen"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:114
+msgid "Modified Only"
+msgstr "Sólo modificado"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:857
+msgid "Required to render"
+msgstr "Necesario para renderizar"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:851
+msgid "Dynamic tag to insert"
+msgstr "Etiqueta dinámica para insertar"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:815
+msgid "Enter a valid date format. Leave blank to use the default format."
+msgstr "Introduce un formato de fecha válido. Déjalo en blanco para utilizar el formato por defecto."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:69
+msgid "Pre Read More Text"
+msgstr "Texto de pre lectura"
+
+#: dist/blocks/text/index.js:1 src/blocks/text/components/BlockSettings.jsx:144
+msgid "Show the icon by itself"
+msgstr "Muestra el icono por sí solo"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/QueryInspectorControls.jsx:42
+msgid "Standard WP_Query for posts and pages."
+msgstr "Consulta WP estándar para entradas y páginas."
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/ControlBuilder.jsx:50
+msgid "Current author"
+msgstr "Autor actual"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:104
+msgid "Choose to include or exclude the selected taxonomy terms"
+msgstr "Elige incluir o excluir los términos taxonómicos seleccionados"
+
+#: dist/blocks/query/index.js:4
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:91
+msgid "Include or exclude"
+msgstr "Incluir o excluir"
+
+#: dist/blocks/element/index.js:1 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:1 dist/blocks/loop-item/index.js:4
+#: dist/blocks/looper/index.js:1 dist/blocks/looper/index.js:4
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/query/index.js:4
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/components/block-styles-builder/BlockStylesBuilder.jsx:76
+#: src/utils/selectorShortcuts.js:30
+msgid "Pseudo Elements"
+msgstr "Pseudo elementos"
+
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:4
+#: src/blocks/element/components/BlockSettings.jsx:227
+#: src/blocks/loop-item/components/BlockSettings.jsx:70
+msgid "Inline Background Image"
+msgstr "Imagen de fondo en línea"
+
+#: dist/blocks/element/index.js:4
+#: src/blocks/element/components/BlockSettings.jsx:168
+msgid "Open Shape Library"
+msgstr "Biblioteca abierta de formas"
+
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:4
+#: src/blocks/element/components/BlockSettings.jsx:260
+#: src/blocks/loop-item/components/BlockSettings.jsx:103
+msgid "This container is now a link element. Be sure not to add any interactive elements inside of it, like buttons or other links."
+msgstr "Este contenedor es ahora un elemento de enlace. Asegúrate de no añadir ningún elemento interactivo en su interior, como botones u otros enlaces."
+
+#: dist/blocks/element/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/components/styles-onboarder/StylesOnboarder.jsx:20
+msgid "Block styles can be found by clicking on the <Styles /> icon."
+msgstr "Los estilos de bloque se pueden encontrar al hacer clic en el icono <Styles />."
+
+#: dist/blocks/element/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/components/dynamic-tags-onboarder/DynamicTagsOnboarder.jsx:20
+msgid "Dynamic data can be found by clicking on the <DynamicTags /> icon in your block toolbar and/or block settings."
+msgstr "Los datos dinámicos se pueden encontrar haciendo clic en el icono <DynamicTags /> de la barra de herramientas de tu bloque y/o en los ajustes del bloque."
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagModal.jsx:141
+msgid "Remove tag from content"
+msgstr "Eliminar etiqueta del contenido"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagModal.jsx:81
+msgid "Choose an existing dynamic tag to edit, or <CreateNew />."
+msgstr "Elige una etiqueta dinámica existente para editar, o <CreateNew />."
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:870
+msgid "Insert dynamic tag"
+msgstr "Insertar una etiqueta dinámica"
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:861
+msgid "This tag must output a value for the block to be rendered."
+msgstr "Esta etiqueta debe mostrar un valor para que se muestre el bloque."
+
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:796
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:844
+msgid "Enter an existing meta key or choose from the list."
+msgstr "Introduce una clave meta existente o elige de la lista."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:274
+msgid "Get a list of terms for the specified post."
+msgstr "Obtiene una lista de términos para la entrada especificada."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:251
+msgid "Check this box to show the default URL instead of the actual avatar URL."
+msgstr "Marca esta casilla para mostrar la URL por defecto en lugar de la URL real del avatar."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:250
+msgid "Force default avatar"
+msgstr "Forzar avatar por defecto"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:219
+msgid "Author Avatar URL"
+msgstr "URL del avatar del autor"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:209
+msgid "Author Archives URL"
+msgstr "URL de archivos del autor"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:164
+msgid "Access user meta by key for the author of the specified post. Return value must be a string."
+msgstr "Accede a la meta de usuario por clave para el autor de la entrada especificada. El valor devuelto debe ser una cadena."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:153
+msgid "Access post meta by key for the specified post. Return value must be a string."
+msgstr "Accede a la meta entrada por clave para la entrada especificada. El valor devuelto debe ser una cadena."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:84
+msgid "Post Permalink"
+msgstr "Enlace permanente de la entrada"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:70
+msgid "Enter text between the truncated post excerpt and the read more link."
+msgstr "Introduce el texto entre el extracto truncado de la entrada y el enlace de leer más."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:64
+msgid "Use the theme read more text. Uncheck to use the custom settings below."
+msgstr "Usa el texto de leer más del tema. Desmarca para usar los ajustes personalizados de abajo."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:63
+msgid "Use Theme Read More"
+msgstr "Usar tema Leer más"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:59
+msgid "Enter the number of words to display in the excerpt. If empty, the default theme behavior is used."
+msgstr "Introduce el número de palabras que se mostrarán en el extracto. Si está vacío, se utiliza el comportamiento por defecto del tema."
+
+#: includes/class-rest.php:272
+msgid "No URL provided."
+msgstr "No se ha proporcionado ninguna URL."
+
+#: includes/dynamic-tags/class-dynamic-tags.php:75
+msgid "Enter the text for the \"Read More\" link. Leave blank to hide the link."
+msgstr "Introduce el texto del enlace «Leer más». Déjalo en blanco para ocultar el enlace."
+
+#: dist/blocks/text/index.js:1 dist/pattern-library.js:2
+#: src/dynamic-tags/components/DynamicTagBlockToolbar.jsx:153
+#: src/pattern-library/components/pattern-details.js:81
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: includes/pattern-library/class-libraries.php:206
+msgid "Free"
+msgstr "Gratis"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:4 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:35
+#: src/blocks/media/components/BlockSettings.jsx:118
+#: src/components/alignment-toolbar/BlockWidth.jsx:51
+#: src/extend/inspector-control/controls/layout/components/ThemeWidth.js:35
+msgid "Full"
+msgstr "Completo"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/BlockWidth.jsx:46
+#: src/extend/inspector-control/controls/layout/components/ThemeWidth.js:30
+msgid "Wide"
+msgstr "Ancho"
+
+#: includes/functions.php:1883
+msgid "System Fonts"
+msgstr "Fuentes de sistema"
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:4 dist/blocks/looper/index.js:4
+#: dist/blocks/query/index.js:4
+#: src/blocks/container/components/BlockAppender.js:40
+#: src/components/block-appender/BlockAppender.jsx:49
+msgctxt "Generic label for block inserter button"
+msgid "Add block"
+msgstr "Añadir bloque"
+
+#. translators: %s: the name of the block when there is only one
+#: dist/blocks.js:15 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:4 dist/blocks/looper/index.js:4
+#: dist/blocks/query/index.js:4
+#: src/blocks/container/components/BlockAppender.js:38
+#: src/components/block-appender/BlockAppender.jsx:47
+msgctxt "directly add the only allowed block"
+msgid "Add %s"
+msgstr "Añadir %s"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/controls/TaxonomyParameterControl.js:83
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:86
+msgid "You must select at least one term. Search by name or ID."
+msgstr "Debes seleccionar al menos un término. Busca por nombre o ID."
+
+#: dist/blocks.js:4 dist/blocks.js:15 dist/blocks/query/index.js:1
+#: dist/pattern-library.js:2 dist/styles-builder.js:1 dist/styles-builder.js:2
+#: dist/styles-builder.js:8 dist/styles-builder.js:11 dist/styles-builder.js:20
+#: dist/styles-builder.js:32
+#: src/components/migrate-inner-container/index.js:169
+#: src/components/template-selector/TemplateSelector.jsx:61
+#: src/extend/template-selector/index.js:53
+#: src/pattern-library/components/selected-patterns.js:133
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: dist/components.js:4
+#: src/blocks/query-loop/components/inspector-controls/controls/TaxonomyParameterControl.js:58
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:68
+#: src/dynamic-tags/components/SelectTaxonomy.jsx:21
+msgid "Select taxonomy"
+msgstr "Seleccionar taxonomía"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/controls/TaxonomyParameterControl.js:89
+#: src/blocks/query/components/TaxonomyParameterControl.jsx:109
+msgid "Include child terms"
+msgstr "Incluir términos hijos"
+
+#: dist/blocks/media/block.json src/blocks/media/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Imagen"
+
+#: dist/blocks.js:3 dist/blocks.js:33 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:35
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:123
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:615
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:621
+#: src/extend/inspector-control/controls/borders/components/style-dropdown.js:33
+msgid "None"
+msgstr "Ninguno"
+
+#: dist/blocks.js:15 dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:101
+#: src/components/link-block-toolbar/LinkBlockToolbar.jsx:26
+#: src/components/link-control/index.js:106
+msgid "Add Link"
+msgstr "Añadir enlace"
+
+#: dist/blocks.js:15 dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:101
+#: src/components/link-block-toolbar/LinkBlockToolbar.jsx:26
+#: src/components/link-control/index.js:107
+msgid "Change Link"
+msgstr "Cambiar enlace"
+
+#: dist/blocks.js:6 dist/blocks/element/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/components/dynamic-tags-onboarder/DynamicTagsOnboarder.jsx:16
+#: src/extend/dynamic-content/InspectorControls.js:97
+msgid "Dynamic Data"
+msgstr "Datos dinámicos"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:187 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/CommentsControl.js:30
+msgid "Multiple comments text"
+msgstr "Texto para múltiples comentarios"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:106 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/PostDateControl.js:15
+msgid "Published"
+msgstr "Publicado"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:101 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/PostDateControl.js:12
+msgid "Date type"
+msgstr "Tipo de fecha"
+
+#: dist/blocks.js:6 dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:623
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:19
+#: src/extend/dynamic-content/utils/getContentTypeLabel.js:52
+msgid "Comments area"
+msgstr "Área de comentarios"
+
+#: dist/blocks.js:4 dist/blocks/media/index.js:1
+#: src/blocks/media/components/BlockSettings.jsx:263
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:82
+msgid "Alt text"
+msgstr "Texto alternativo"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:125 dist/blocks.js:4
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:57
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:177 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/CommentsControl.js:18
+msgid "No comments text"
+msgstr "Sin texto de comentarios"
+
+#: dist/blocks.js:3 dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1 src/block-context/container.js:99
+#: src/block-context/headline.js:90
+#: src/blocks/button/components/InspectorAdvancedControls.js:27
+#: src/components/url-controls/URLControls.jsx:15
+msgid "Link"
+msgstr "Enlace"
+
+#: dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:707
+#: src/extend/dynamic-content/inspector-controls/DynamicSourceControl.js:35
+msgid "Select source post"
+msgstr "Selecciona el puesto de origen"
+
+#: dist/blocks.js:15 dist/blocks/media/index.js:1
+#: src/blocks/image/components/ImagePlaceholder.js:43
+#: src/blocks/media/components/ImagePlaceholder.jsx:16
+msgid "Choose an image from your media library or add one with a URL."
+msgstr "Elige una imagen de tu biblioteca multimedia o añade una con una URL."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: src/blocks/query-loop/query-parameters.js:211
+#: src/blocks/query/components/DateQueryControl.jsx:71
+#: src/blocks/query/components/DateQueryControl.jsx:84
+#: src/blocks/text/components/BlockSettings.jsx:131
+msgid "Before"
+msgstr "Antes de"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: src/blocks/query-loop/query-parameters.js:203
+#: src/blocks/query/components/DateQueryControl.jsx:91
+#: src/blocks/query/components/DateQueryControl.jsx:104
+#: src/blocks/text/components/BlockSettings.jsx:132
+msgid "After"
+msgstr "Después de"
+
+#: dist/blocks.js:4 dist/blocks.js:6 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query/index.js:4 dist/blocks/text/index.js:1
+#: src/blocks/query-loop/query-parameters.js:148
+#: src/blocks/query-loop/query-parameters.js:160
+#: src/blocks/query-loop/query-parameters.js:171
+#: src/blocks/query-loop/query-parameters.js:183
+#: src/blocks/query-loop/query-parameters.js:197
+#: src/blocks/query/query-parameters.js:140
+#: src/blocks/query/query-parameters.js:152
+#: src/blocks/query/query-parameters.js:163
+#: src/blocks/query/query-parameters.js:175
+#: src/blocks/query/query-parameters.js:189
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:622
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:13
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:55
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:16
+msgid "Post"
+msgstr "Entrada"
+
+#: includes/class-render-blocks.php:135 dist/blocks.js:4 dist/blocks.js:6
+#: dist/blocks.js:15 dist/blocks.js:33 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/styles-builder.js:35 src/blocks/image/components/ImagePlaceholder.js:42
+#: src/blocks/image/index.js:27 src/blocks/image/index.js:50
+#: src/blocks/media/components/ImagePlaceholder.jsx:15
+#: src/components/image-upload/ImageUpload.jsx:9
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:78
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:72
+msgid "Image"
+msgstr "Imagen"
+
+#: includes/class-dynamic-content.php:335
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:409
+#: includes/dynamic-tags/class-dynamic-tags.php:178 dist/blocks.js:4
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:127
+msgid "No comments"
+msgstr "Sin comentarios"
+
+#. translators: Aria-label describing the read more button
+#: includes/class-dynamic-content.php:191
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:669
+msgctxt "more on post title"
+msgid "More on %s"
+msgstr "Más en %s"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/parameter-list/RemoveButton.js:7
+#: src/blocks/query/components/ControlBuilder.jsx:146
+msgid "Delete parameter"
+msgstr "Borrar parámetro"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/InspectorControls.js:50
+#: src/blocks/query/components/QueryInspectorControls.jsx:82
+msgid "Inherit query from template"
+msgstr "Heredar la consulta de la plantilla"
+
+#: includes/class-render-blocks.php:93
+msgid "Query loop"
+msgstr "Bucle de consulta"
+
+#. Translators: % is the number of comments.
+#. translators: Number of comments.
+#: includes/class-dynamic-content.php:346
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:411
+#: includes/dynamic-tags/class-dynamic-tags.php:189 dist/blocks.js:6
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:130
+msgid "% comments"
+msgstr "% comentarios"
+
+#: includes/class-dynamic-content.php:345
+#: includes/dynamic-tags/class-dynamic-tag-callbacks.php:410 dist/blocks.js:4
+#: src/extend/dynamic-content/inspector-controls/ContentTypeControl.js:128
+msgid "1 comment"
+msgstr "1 comentario"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/AddQueryParameterButton.js:9
+#: src/blocks/query/components/AddQueryParameterButton.jsx:9
+msgid "Add Parameter"
+msgstr "Añadir parámetro"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/SelectQueryParameter.js:24
+#: src/blocks/query-loop/components/inspector-controls/SelectQueryParameter.js:25
+#: src/blocks/query/components/SelectQueryParameter.jsx:24
+#: src/blocks/query/components/SelectQueryParameter.jsx:25
+msgid "Select query parameter"
+msgstr "Seleccionar parámetro de consulta"
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/InspectorControls.js:51
+#: src/blocks/query/components/QueryInspectorControls.jsx:83
+msgid "Toggle to use the global query context that is set with the current template, such as an archive or search."
+msgstr "Alterna para usar la consulta en contexto global que se establecerá con la plantilla actual, como alternativa al archivo o búsqueda."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/components/inspector-controls/parameter-list/RemoveButton.js:12
+#: src/blocks/query/components/ControlBuilder.jsx:151
+msgid "This will permanently delete this parameter."
+msgstr "Esto borrará permanentemente este parámetro."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/query-parameters.js:212
+#: src/blocks/query/components/DateQueryControl.jsx:85
+msgid "Limit response to posts published before a given date."
+msgstr "Limitar la respuesta a los mensajes publicados antes de una fecha determinada."
+
+#: dist/blocks.js:4 dist/blocks/query/index.js:4
+#: src/blocks/query-loop/query-parameters.js:204
+#: src/blocks/query/components/DateQueryControl.jsx:105
+msgid "Limit response to posts published after a given date."
+msgstr "Limitar la respuesta a los mensajes publicados después de una fecha determinada."
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:4
+#: dist/blocks/loop-item/index.js:4 dist/blocks/looper/index.js:4
+#: dist/blocks/query/index.js:4
+#: src/blocks/container/components/BlockAppender.js:72
+#: src/components/block-appender/BlockAppender.jsx:81
+msgid "Select Container"
+msgstr "Seleccionar el contenedor"
+
+#: dist/blocks.js:4 dist/blocks.js:33 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/text/index.js:1 src/blocks/container/components/TagName.js:31
+#: src/blocks/headline/components/TagName.js:35
+#: src/components/tagname-control/TagNameControl.jsx:20
+msgid "Tag Name"
+msgstr "Nombre de la etiqueta"
+
+#: dist/blocks.js:4 dist/blocks.js:33 dist/blocks/media/index.js:1
+#: dist/blocks/shape/index.js:1
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:84
+#: src/blocks/media/components/BlockSettings.jsx:254
+#: src/blocks/shape/components/BlockSettings.jsx:120
+#: src/extend/inspector-control/controls/shapes-panel/index.js:251
+#: src/extend/inspector-control/controls/shapes-panel/index.js:360
+#: src/extend/inspector-control/controls/shapes-panel/index.js:417
+#: src/extend/inspector-control/controls/sizing/index.js:74
+msgid "Height"
+msgstr "Altura"
+
+#: dist/blocks.js:4 dist/blocks/shape/index.js:1
+#: src/blocks/shape/components/ShapeDividerControls.jsx:56
+#: src/extend/inspector-control/controls/shapes-panel/index.js:230
+msgid "Location"
+msgstr "Ubicación"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/dynamic-tags/components/DynamicTagSelect.jsx:802
+#: src/extend/inspector-control/controls/background-panel/components/image-size.js:16
+msgid "Image Size"
+msgstr "Tamaño de la imagen"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: src/components/image-upload/ImageUpload.jsx:59
+#: src/extend/inspector-control/controls/background-panel/components/image-url.js:61
+msgid "Browse"
+msgstr "Explorar"
+
+#: dist/blocks.js:33 dist/blocks/text/index.js:1
+#: src/blocks/headline/components/ToolbarGroup.js:131
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:37
+msgid "Div"
+msgstr "Div"
+
+#: dist/blocks.js:33 dist/blocks/text/index.js:1
+#: src/blocks/headline/components/ToolbarGroup.js:119
+#: src/components/TagNameToolbar/TagNameToolbar.jsx:33
+msgid "Paragraph"
+msgstr "Párrafo"
+
+#: includes/class-rest.php:235
+msgid "CSS files regenerated."
+msgstr "Los archivos CSS se han regenerado."
+
+#: includes/class-rest.php:215
+msgid "No changes found."
+msgstr "No se han encontrado cambios."
+
+#. translators: Shape number
+#: includes/functions.php:808 includes/functions.php:813
+#: includes/functions.php:818 includes/functions.php:823
+#: includes/functions.php:828 includes/functions.php:833
+#: includes/functions.php:838 includes/functions.php:843
+#: includes/functions.php:848 includes/functions.php:853
+#: includes/functions.php:858 includes/functions.php:863
+msgid "Triangle %s"
+msgstr "Triángulo %s"
+
+#: includes/functions.php:804
+msgid "Triangles"
+msgstr "Triángulos"
+
+#. translators: Shape number
+#: includes/functions.php:783 includes/functions.php:788
+#: includes/functions.php:793 includes/functions.php:798
+msgid "Curve %s"
+msgstr "Curva %s"
+
+#: includes/functions.php:779
+msgid "Curves"
+msgstr "Curvas"
+
+#. translators: Shape number
+#: includes/functions.php:773
+msgid "Angle %s"
+msgstr "Ángulo %s"
+
+#: includes/functions.php:769
+msgid "Angles"
+msgstr "Ángulos"
+
+#. translators: Shape number
+#: includes/functions.php:728 includes/functions.php:733
+#: includes/functions.php:738 includes/functions.php:743
+#: includes/functions.php:748 includes/functions.php:753
+#: includes/functions.php:758 includes/functions.php:763
+msgid "Wave %s"
+msgstr "Onda %s"
+
+#: includes/functions.php:724
+msgid "Waves"
+msgstr "Ondas"
+
+#: dist/blocks.js:4 dist/blocks.js:33 dist/blocks/media/index.js:1
+#: dist/blocks/shape/index.js:1
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:71
+#: src/blocks/media/components/BlockSettings.jsx:245
+#: src/blocks/shape/components/BlockSettings.jsx:111
+#: src/extend/inspector-control/controls/shapes-panel/index.js:277
+#: src/extend/inspector-control/controls/shapes-panel/index.js:386
+#: src/extend/inspector-control/controls/shapes-panel/index.js:443
+#: src/extend/inspector-control/controls/sizing/index.js:68
+msgid "Width"
+msgstr "Anchura"
+
+#: includes/class-rest.php:183 includes/class-rest.php:222
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: dist/blocks.js:3 dist/blocks.js:33 dist/blocks/media/index.js:1
+#: src/blocks/image/components/inspector-controls/ImageSettingsControl.js:52
+#: src/blocks/media/components/BlockSettings.jsx:210
+#: src/extend/inspector-control/controls/background-panel/components/size.js:7
+msgid "Size"
+msgstr "Tamaño"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:4 dist/blocks/text/index.js:1
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:86
+#: src/extend/inspector-control/controls/typography/index.js:90
+msgid "Text Alignment"
+msgstr "Alineación del texto"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/looper/index.js:4
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1 dist/styles-builder.js:32
+#: src/block-context/grid.js:11
+#: src/blocks/element/components/BlockSettings.jsx:92
+#: src/blocks/looper/components/BlockSettings.jsx:54
+#: src/extend/inspector-control/controls/layout/index.js:151
+msgid "Layout"
+msgstr "Diseño"
+
+#: dist/blocks/text/index.js:1 src/blocks/text/components/BlockSettings.jsx:121
+msgid "Icon Color"
+msgstr "Color del icono"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/blocks/container/components/LegacyLayoutControls.js:123
+#: src/blocks/container/components/LegacyLayoutControls.js:146
+#: src/blocks/container/components/LegacyLayoutControls.js:166
+#: src/blocks/grid/components/InspectorControls.js:68
+#: src/blocks/grid/components/InspectorControls.js:84
+#: src/blocks/grid/components/InspectorControls.js:106
+#: src/blocks/grid/components/InspectorControls.js:123
+#: src/blocks/grid/components/InspectorControls.js:145
+#: src/blocks/grid/components/InspectorControls.js:162
+#: src/components/alignment-matrix/components/matrix.js:10
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:52
+#: src/extend/inspector-control/controls/icon/options.js:6
+msgid "Center"
+msgstr "Centro"
+
+#: dist/blocks.js:3 dist/blocks.js:15 dist/blocks.js:33
+#: dist/blocks/element/index.js:1 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/block-context/headline.js:103 src/blocks/button/block.js:73
+#: src/blocks/headline/block.js:75
+#: src/blocks/text/components/BlockSettings.jsx:79 src/blocks/text/edit.js:114
+#: src/blocks/text/edit.js:121 src/blocks/text/edit.js:127
+#: src/blocks/text/edit.js:129 src/blocks/text/index.js:25
+#: src/extend/inspector-control/controls/icon/index.js:28
+msgid "Icon"
+msgstr "Icono"
+
+#: includes/class-render-blocks.php:122 dist/blocks.js:15
+#: src/blocks/button/block.js:42 src/blocks/button/block.js:79
+msgid "Button"
+msgstr "Botón"
+
+#: dist/blocks.js:3 dist/blocks/text/index.js:1
+#: src/blocks/text/components/BlockSettings.jsx:128
+#: src/components/icon-picker/index.js:212
+#: src/extend/inspector-control/controls/icon/components/icon-location.js:7
+msgid "Icon Location"
+msgstr "Ubicación del icono"
+
+#: dist/blocks.js:3 dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: dist/components.js:1 dist/components.js:4 dist/styles-builder.js:32
+#: src/blocks/shape/components/BlockSettings.jsx:88
+#: src/blocks/text/components/BlockSettings.jsx:113
+#: src/components/icon-picker/index.js:141
+msgid "Clear"
+msgstr "Vaciar"
+
+#: includes/dynamic-tags/class-dynamic-tags.php:234 dist/blocks.js:3
+#: dist/blocks.js:4 dist/blocks.js:6 dist/blocks/element/index.js:4
+#: dist/blocks/text/index.js:1 dist/pattern-library.js:2
+#: dist/styles-builder.js:32 dist/styles-builder.js:35
+#: src/blocks/container/components/LegacyLayoutControls.js:121
+#: src/blocks/container/components/LegacyLayoutControls.js:144
+#: src/blocks/container/components/LegacyLayoutControls.js:164
+#: src/blocks/grid/components/InspectorControls.js:66
+#: src/blocks/grid/components/InspectorControls.js:82
+#: src/blocks/grid/components/InspectorControls.js:104
+#: src/blocks/grid/components/InspectorControls.js:121
+#: src/blocks/grid/components/InspectorControls.js:143
+#: src/blocks/grid/components/InspectorControls.js:160
+#: src/components/alignment-toolbar/BlockWidth.jsx:41
+#: src/extend/block-controls/controls/alignment-matrix-control.js:70
+#: src/extend/dynamic-content/inspector-controls/LinkTypeControl.js:90
+#: src/extend/inspector-control/controls/borders/components/style-dropdown.js:27
+#: src/extend/inspector-control/controls/layout/components/Display.js:12
+#: src/extend/inspector-control/controls/layout/components/ThemeWidth.js:25
+#: src/extend/inspector-control/controls/layout/index.js:172
+#: src/extend/inspector-control/controls/layout/options.js:79
+#: src/extend/inspector-control/controls/layout/options.js:91
+#: src/extend/inspector-control/controls/typography/options.js:7
+#: src/extend/inspector-control/controls/typography/options.js:21
+#: src/pattern-library/components/manage-libraries.js:118
+msgid "Default"
+msgstr "Por defecto"
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:137
+#: src/components/link-control/index.js:69
+#: src/components/url-controls/URLControls.jsx:91
+msgid "Open link in a new tab"
+msgstr "Abrir el enlace en una nueva pestaña"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/block-context/button.js:114
+#: src/blocks/grid/components/InspectorControls.js:83
+#: src/blocks/grid/components/InspectorControls.js:122
+#: src/blocks/grid/components/InspectorControls.js:161
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:47
+#: src/components/dimensions/labels.js:6
+#: src/extend/inspector-control/controls/borders/index.js:34
+msgid "Left"
+msgstr "Izquierda"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/container/components/LegacyLayoutControls.js:124
+#: src/blocks/container/components/LegacyLayoutControls.js:147
+#: src/blocks/container/components/LegacyLayoutControls.js:167
+#: src/blocks/grid/components/InspectorControls.js:69
+#: src/blocks/grid/components/InspectorControls.js:107
+#: src/blocks/grid/components/InspectorControls.js:146
+#: src/blocks/shape/components/ShapeDividerControls.jsx:60
+#: src/components/dimensions/labels.js:8
+#: src/extend/inspector-control/controls/borders/index.js:33
+#: src/extend/inspector-control/controls/icon/options.js:7
+#: src/extend/inspector-control/controls/shapes-panel/index.js:234
+msgid "Bottom"
+msgstr "Inferior"
+
+#: dist/blocks.js:3 dist/blocks/element/index.js:1
+#: dist/blocks/element/index.js:4 dist/blocks/loop-item/index.js:1
+#: dist/blocks/looper/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/query-page-numbers/index.js:1 dist/blocks/query/index.js:1
+#: dist/blocks/shape/index.js:1 dist/blocks/text/index.js:1
+#: src/block-context/button.js:115
+#: src/blocks/grid/components/InspectorControls.js:85
+#: src/blocks/grid/components/InspectorControls.js:124
+#: src/blocks/grid/components/InspectorControls.js:163
+#: src/components/alignment-toolbar/AlignmentToolbar.jsx:57
+#: src/components/dimensions/labels.js:7
+#: src/extend/inspector-control/controls/borders/index.js:32
+msgid "Right"
+msgstr "Derecha"
+
+#: includes/class-render-blocks.php:106 dist/blocks.js:15
+#: src/blocks/button-container/block.js:33
+#: src/blocks/button-container/block.js:62
+msgid "Buttons"
+msgstr "Botones"
+
+#: dist/blocks.js:3 dist/blocks.js:4 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/looper/index.js:1
+#: dist/blocks/media/index.js:1 dist/blocks/query-page-numbers/index.js:1
+#: dist/blocks/query/index.js:1 dist/blocks/shape/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/container/components/LegacyLayoutControls.js:122
+#: src/blocks/container/components/LegacyLayoutControls.js:145
+#: src/blocks/container/components/LegacyLayoutControls.js:165
+#: src/blocks/grid/components/InspectorControls.js:67
+#: src/blocks/grid/components/InspectorControls.js:105
+#: src/blocks/grid/components/InspectorControls.js:144
+#: src/blocks/shape/components/ShapeDividerControls.jsx:59
+#: src/components/dimensions/labels.js:5
+#: src/extend/inspector-control/controls/borders/index.js:31
+#: src/extend/inspector-control/controls/icon/options.js:5
+#: src/extend/inspector-control/controls/shapes-panel/index.js:233
+msgid "Top"
+msgstr "Superior"
+
+#: includes/class-render-blocks.php:114 dist/blocks.js:6 dist/blocks.js:33
+#: src/blocks/headline/block.js:42 src/blocks/headline/block.js:81
+#: src/blocks/headline/components/HeadlineContentRenderer.js:82
+msgid "Headline"
+msgstr "Titular"
+
+#: includes/class-render-blocks.php:60 dist/blocks.js:4 dist/blocks.js:15
+#: src/blocks/container/block.js:36 src/blocks/container/block.js:70
+#: src/blocks/container/components/LegacyLayoutControls.js:43
+msgid "Container"
+msgstr "Contenedor"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://tomusborne.com"
+msgstr "https://tomusborne.com"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Tom Usborne"
+msgstr "Tom Usborne"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://generateblocks.com"
+msgstr "https://generateblocks.com"
+
+#. Plugin Name of the plugin
+#: plugin.php includes/dashboard.php:20 includes/dashboard.php:21
+#: includes/general.php:326 dist/dashboard.js:1 dist/editor-sidebar.js:1
+#: src/dashboard.js:11 src/editor-sidebar/index.js:56
+#: src/editor-sidebar/index.js:67
+msgid "GenerateBlocks"
+msgstr "GenerateBlocks"
+
+#: includes/class-settings.php:52 includes/class-settings.php:53
+#: includes/dashboard.php:183 dist/block-styles.js:1 dist/settings.js:1
+#: src/settings.js:99
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Description of the plugin
+#: plugin.php
+msgid "A small collection of lightweight WordPress blocks that can accomplish nearly anything."
+msgstr "Una pequeña colección de bloques ligeros para WordPress que pueden lograr casi cualquier cosa."
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:147
+#: src/components/link-control/index.js:77
+#: src/components/url-controls/URLControls.jsx:109
+msgid "Add rel=\"nofollow\""
+msgstr "Añadir rel=\"nofollow\""
+
+#: dist/blocks.js:15 dist/blocks/element/index.js:1
+#: dist/blocks/loop-item/index.js:1 dist/blocks/media/index.js:1
+#: dist/blocks/text/index.js:1
+#: src/blocks/button/components/BlockControls.js:157
+#: src/components/link-control/index.js:85
+#: src/components/url-controls/URLControls.jsx:136
+msgid "Add rel=\"sponsored\""
+msgstr "Añadir rel=\"sponsored\""
+
+#: includes/class-render-blocks.php:80 dist/blocks.js:1 dist/blocks.js:4
+#: src/blocks/grid/block.js:33 src/blocks/grid/block.js:61
+#: src/blocks/grid/components/LayoutSelector.js:60
+msgid "Grid"
+msgstr "Cuadrícula"

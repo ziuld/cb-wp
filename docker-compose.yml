@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   wordpress:
-    image: wordpress:6.7-php8.2-apache   # <-- ajusta la versión de PHP a la que usa Hostinger (hPanel > PHP Configuration)
+    image: wordpress:7.0.2-php8.3-apache   # <-- ajusta la versión de PHP a la que usa Hostinger (hPanel > PHP Configuration)
     container_name: wp_app
     ports:
       - "8080:80"
@@ -44,7 +44,7 @@ services:
       - db
 
   wpcli:
-    image: wordpress:cli-php8.2
+    image: wordpress:cli-php8.3
     container_name: wp_cli
     volumes:
       - ./wp-content:/var/www/html/wp-content
