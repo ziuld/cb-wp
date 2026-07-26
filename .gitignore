@@ -24,3 +24,6 @@ db_data/
 # Sistema
 .DS_Store
 node_modules/
+
+deploy_key
+deploy_key.pub
