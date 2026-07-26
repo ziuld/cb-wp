@@ -1,0 +1,13 @@
+{
+  "name": "cb-wp-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automation harness for verifying colibridge.es deploys across environments",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node cli.js run --env=local --suite=smoke"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
