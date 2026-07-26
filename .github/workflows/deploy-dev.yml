@@ -15,7 +15,7 @@ jobs:
       - name: Desplegar por rsync sobre SSH
         uses: burnett01/rsync-deployments@7.0.1
         with:
-          switches: -avzr --delete
+          switches: -avzr --delete --exclude=uploads/
           path: wp-content/
           remote_path: ${{ secrets.DEV_REMOTE_PATH }}/wp-content/
           remote_host: ${{ secrets.HOSTINGER_HOST }}
