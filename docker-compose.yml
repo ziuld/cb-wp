@@ -1,11 +1,9 @@
-version: "3.8"
-
 services:
   wordpress:
-    image: wordpress:7.0.2-php8.3-apache   # <-- ajusta la versión de PHP a la que usa Hostinger (hPanel > PHP Configuration)
+    image: wordpress:7.0.2-php8.3-apache   # coincide con producción: WordPress 7.0.2, PHP 8.3.30
     container_name: wp_app
     ports:
-      - "8080:80"
+      - "8090:80"
     restart: unless-stopped
     environment:
       WORDPRESS_DB_HOST: db
@@ -14,8 +12,8 @@ services:
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
       WORDPRESS_DEBUG: 1
     volumes:
+      - wp_core:/var/www/html
       - ./wp-content:/var/www/html/wp-content
-      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     depends_on:
       - db
 
@@ -46,11 +44,19 @@ services:
   wpcli:
     image: wordpress:cli-php8.3
     container_name: wp_cli
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: ${DB_NAME}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
     volumes:
+      - wp_core:/var/www/html
       - ./wp-content:/var/www/html/wp-content
     depends_on:
       - db
+      - wordpress
     entrypoint: ["tail", "-f", "/dev/null"]   # queda vivo para ejecutar comandos con: docker compose exec wpcli wp ...
 
 volumes:
   db_data:
+  wp_core:
