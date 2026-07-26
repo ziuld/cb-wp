@@ -254,7 +254,7 @@ Abrir: `http://localhost:8090`
 
 `.github/workflows/deploy-dev.yml` (push a `develop` → `dev.tudominio.com`) y `deploy-main.yml` (push a `main` → producción), ambos usando `burnett01/rsync-deployments` para sincronizar `wp-content/` por SSH.
 
-En el de producción, **excluir `uploads/`** del rsync (`--exclude=uploads/`) para no pisar medios reales, y considerar un `environment: production` con "Required reviewers" en GitHub para exigir aprobación manual antes de tocar el sitio real.
+⚠️ **Los dos workflows deben excluir `uploads/`** del rsync (`--exclude=uploads/`), no solo el de producción. `uploads/` está en `.gitignore` a propósito, así que el repo que clona GitHub Actions nunca lo tiene — si el workflow usa `--delete` sin excluirlo, **borra `uploads/` del servidor** al desplegar, porque interpreta que ya no existe en el origen. Esto pasó en la práctica: un deploy a dev sin el exclude borró todo lo que se había sincronizado manualmente.
 
 ### 4.2 Clave SSH para CI/CD
 
@@ -310,6 +310,7 @@ Errores típicos y su causa:
 | El sitio redirige solo a la URL de producción pese a que `search-replace` ya corrió bien en la base de datos | No es un problema de WordPress: es una **cookie de sesión activa** del dominio de producción en el navegador. Probar en ventana de incógnito antes de seguir depurando plugins/config |
 | Imágenes con 404 en dev/local aunque la base de datos las referencia bien | `wp-content/uploads/` no se sincronizó — no se versiona por Git a propósito, hay que copiarlo aparte (ver sección 6.3) |
 | Portada carga bien pero cualquier página interna da "This Page Does Not Exist" | Falta `.htaccess` con las reglas de reescritura de WordPress (común si la instalación se hizo solo por WP-CLI). Ver sección 6.4 |
+| `uploads/` desaparece del servidor después de un deploy normal a `develop` o `main` | El workflow usa `rsync --delete` sin `--exclude=uploads/`. Como `uploads/` no está en el repo (`.gitignore`), el `--delete` lo borra en destino por creer que ya no existe en origen. **Ambos** workflows (`deploy-dev.yml` y `deploy-main.yml`) deben excluirlo, no solo el de producción |
 
 Al terminar la prueba, limpiar el archivo de test:
 ```powershell

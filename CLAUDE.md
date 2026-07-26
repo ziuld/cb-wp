@@ -40,6 +40,14 @@ No hace falta que esperes confirmación mía entre pasos si el siguiente paso es
 
 **Lección para la guía:** siempre probar en incógnito antes de asumir que es un problema de configuración/plugins cuando hay redirección a otro dominio tras un `search-replace`.
 
+## Incidente reciente — uploads/ borrado por el deploy a dev (RESUELTO)
+
+Tras el push de `CLAUDE.md`, `docs/`, y ajustes de `docker-compose.yml`, el deploy a `dev.colibridge.es` se disparó normalmente, pero **borró `wp-content/uploads/`** en el servidor de dev. Causa: `deploy-dev.yml` usaba `rsync --delete` sin `--exclude=uploads/` (a diferencia de `deploy-main.yml`, que sí lo tenía). Como `uploads/` está en `.gitignore` y nunca llega al repo que clona GitHub Actions, el `--delete` lo interpretó como "ya no existe en origen, bórralo en destino".
+
+**Fix aplicado:** se agregó `--exclude=uploads/` también a `deploy-dev.yml`. Documentado en `docs/GUIA-WORDPRESS-GIT-DOCKER.md`, sección 4.1 y tabla de errores 4.4.
+
+**Pendiente inmediato:** volver a sincronizar `uploads/` de producción → dev por SSH (servidor a servidor), ya que se perdió con el incidente. Comando en sección 6.3 de la guía.
+
 ## Progreso reciente — dev.colibridge.es igualado con datos reales
 
 Ya completado (no repetir):
